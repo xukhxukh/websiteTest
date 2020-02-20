@@ -227,7 +227,7 @@ $ npm run build
 ```
 
 几秒后，输出应该如下：
-
+    
 ```bash
 > @ build /private/tmp/myapp
 > roadhog build

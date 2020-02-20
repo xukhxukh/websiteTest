@@ -1,13 +1,15 @@
 module.exports = {
-    title: '标题信息',
-    description: '描述信息.',
+    base: '/websiteTest/',
+    title: 'SEF框架',
+    description: 'SEF1/SEF2框架使用说明.',
     themeConfig: {
-        repo: '/websiteTest/',
+        repo: 'xukhxukh/websiteTest/',
         lastUpdated: 'Last Updated',
         editLinks: true,
-        editLinkText: '在 GitHub 上编辑此页',
+        editLinkText: '帮助我们改善此页面',
         docsDir: 'docs',
         nav: [
+            { text: '测试Demo', link: '/demo/' },
             { text: '指南', link: '/guide/' },
             { text: '发布日志', link: 'https://github.com/dvajs/dva/releases' },
         ],
@@ -29,7 +31,17 @@ module.exports = {
                     collapsable: false,
                     children: ['fig-show', 'develop-complex-spa', 'source-code-explore'],
                 },
-            ]
+            ],
+            '/demo/':[
+                {
+                    title:"测试",
+                    collapsable: false,
+                    children: [
+                        '',
+                        'code-demo'
+                    ],
+                }
+            ],
         },
     },
 };

@@ -4,7 +4,7 @@ module.exports = {
     description: 'SEF1/SEF2框架使用说明.',
     themeConfig: {
         repo: 'xukhxukh/websiteTest/',
-        lastUpdated: 'Last Updated',
+        lastUpdated: '上次更新',
         editLinks: true,
         editLinkText: '帮助我们改善此页面',
         docsDir: 'docs',

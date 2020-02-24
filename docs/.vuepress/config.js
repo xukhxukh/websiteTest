@@ -11,7 +11,8 @@ module.exports = {
         nav: [
             { text: '测试Demo', link: '/demo/' },
             { text: '指南', link: '/guide/' },
-            { text: '发布日志', link: 'https://github.com/dvajs/dva/releases' },
+            { text: '组件', link: '/components/' },
+            { text: '框架升级',link:'/changelog/'},
         ],
         sidebar: {
             '/guide/': [
@@ -40,6 +41,28 @@ module.exports = {
                         '',
                         'code-demo'
                     ],
+                }
+            ],
+            '/components/':[
+                {
+                    title:"组件",
+                    collapsable: false,
+                    children: [
+                        '',
+                        'form/form'
+                    ],
+                }
+            ],
+            '/changelog/':[
+                {
+                    title:"框架升级",
+                    collapsable: false,
+                    sidebarDepth: 2,    // 可选的, 默认值是 1
+                    children: [
+                        '',
+                        'changelog'
+                    ],
+
                 }
             ],
         },
